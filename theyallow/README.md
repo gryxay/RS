@@ -1,0 +1,1 @@
+Task on creating a responsive web app without JS from a figma mockup

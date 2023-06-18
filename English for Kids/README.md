@@ -1,0 +1,1 @@
+Task on creating a responsive web app 'English for Kids' using JS, HTML and CSS

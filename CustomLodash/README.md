@@ -1,0 +1,1 @@
+Task on creating a custom lodash module
