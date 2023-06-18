@@ -1,0 +1,227 @@
+const keyLayout = [{
+  code: 'Backquote',
+  key: '`',
+  secondary: '~',
+}, {
+  code: 'Digit1',
+  key: '1',
+  secondary: '!',
+  tertiary: 'ą',
+}, {
+  code: 'Digit2',
+  key: '2',
+  secondary: '@',
+  tertiary: 'č',
+}, {
+  code: 'Digit3',
+  key: '3',
+  secondary: '#',
+  tertiary: 'ę',
+}, {
+  code: 'Digit4',
+  key: '4',
+  secondary: '$',
+  tertiary: 'ė',
+}, {
+  code: 'Digit5',
+  key: '5',
+  secondary: '%',
+  tertiary: 'į',
+}, {
+  code: 'Digit6',
+  key: '6',
+  secondary: '^',
+  tertiary: 'š',
+}, {
+  code: 'Digit7',
+  key: '7',
+  secondary: '&',
+  tertiary: 'ų',
+}, {
+  code: 'Digit8',
+  key: '8',
+  secondary: '*',
+  tertiary: 'ū',
+}, {
+  code: 'Digit9',
+  key: '9',
+  secondary: '(',
+  tertiary: '9',
+}, {
+  code: 'Digit0',
+  key: '0',
+  secondary: ')',
+  tertiary: '0',
+}, {
+  code: 'Minus',
+  key: '-',
+  secondary: '_',
+}, {
+  code: 'Equal',
+  key: '=',
+  secondary: '+',
+  tertiary: 'ž',
+}, {
+  code: 'Backspace',
+  key: 'backspace',
+}, {
+  code: 'Tab',
+  key: 'tab',
+}, {
+  code: 'KeyQ',
+  key: 'q',
+}, {
+  code: 'KeyW',
+  key: 'w',
+}, {
+  code: 'KeyE',
+  key: 'e',
+}, {
+  code: 'KeyR',
+  key: 'r',
+}, {
+  code: 'KeyT',
+  key: 't',
+}, {
+  code: 'KeyY',
+  key: 'y',
+}, {
+  code: 'KeyU',
+  key: 'u',
+}, {
+  code: 'KeyI',
+  key: 'i',
+}, {
+  code: 'KeyO',
+  key: 'o',
+}, {
+  code: 'KeyP',
+  key: 'p',
+}, {
+  code: 'BracketLeft',
+  key: '[',
+  secondary: '{',
+}, {
+  code: 'BracketRight',
+  key: ']',
+  secondary: '}',
+}, {
+  code: 'Delete',
+  key: 'del',
+}, {
+  code: 'CapsLock',
+  key: 'caps',
+}, {
+  code: 'KeyA',
+  key: 'a',
+}, {
+  code: 'KeyS',
+  key: 's',
+}, {
+  code: 'KeyD',
+  key: 'd',
+}, {
+  code: 'KeyF',
+  key: 'f',
+}, {
+  code: 'KeyG',
+  key: 'g',
+}, {
+  code: 'KeyH',
+  key: 'h',
+}, {
+  code: 'KeyJ',
+  key: 'j',
+}, {
+  code: 'KeyK',
+  key: 'k',
+}, {
+  code: 'KeyL',
+  key: 'l',
+}, {
+  code: 'Semicolon',
+  key: ';',
+  secondary: ':',
+}, {
+  code: 'Quote',
+  key: "'",
+  secondary: '"',
+}, {
+  code: 'Backslash',
+  key: '\\',
+  secondary: '|',
+}, {
+  code: 'Enter',
+  key: 'enter',
+}, {
+  code: 'ShiftLeft',
+  key: 'shift',
+}, {
+  code: 'KeyZ',
+  key: 'z',
+}, {
+  code: 'KeyX',
+  key: 'x',
+}, {
+  code: 'KeyC',
+  key: 'c',
+}, {
+  code: 'KeyV',
+  key: 'v',
+}, {
+  code: 'KeyB',
+  key: 'b',
+}, {
+  code: 'KeyN',
+  key: 'n',
+}, {
+  code: 'KeyM',
+  key: 'm',
+}, {
+  code: 'Comma',
+  key: ',',
+  secondary: '<',
+}, {
+  code: 'Period',
+  key: '.',
+  secondary: '>',
+}, {
+  code: 'Slash',
+  key: '/',
+  secondary: '?',
+}, {
+  code: 'ArrowUp',
+  key: '↑',
+}, {
+  code: 'ShiftRight',
+  key: 'shift',
+}, {
+  code: 'ControlLeft',
+  key: 'ctrl',
+}, {
+  code: 'MetaLeft',
+  key: 'win',
+}, {
+  code: 'AltLeft',
+  key: 'alt',
+}, {
+  code: 'Space',
+  key: 'space',
+}, {
+  code: 'AltRight',
+  key: 'alt',
+}, {
+  code: 'ControlRight',
+  key: 'ctrl',
+}, {
+  code: 'ArrowLeft',
+  key: '←',
+}, {
+  code: 'ArrowDown',
+  key: '↓',
+}, {
+  code: 'ArrowRight',
+  key: '→',
+}];
+
+export default keyLayout;
