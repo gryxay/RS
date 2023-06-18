@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E7DADB;
+}
+
+
+#calculator button,
+#calculator div {
+    display: inline-flex;
+    border: 2px solid #E7DADB;
+    align-items: center;
+    justify-content: center;
+    font-size: 4vh;
+    font-family: sans-serif;
+}
+
+#calculator button:not(.exclude):hover {
+    opacity: 50%;
+    transition-duration: 500ms;
+}
+
+/* lowercase hex */
+
+#calculator {
+    display: grid;
+    position: relative;
+    width: 55vh;
+    height: 80vh;
+    grid-template-columns: repeat(3, 1fr) repeat(2, .9fr) !important;
+    grid-template: 
+                "scr scr scr scr scr" 1.5fr
+                "ac ac del exp add" 1fr
+                "7 8 9 root add" 1fr
+                "4 5 6 root sub" 1fr
+                "1 2 3 div sub" 1fr
+                "z z dot eq eq" 1fr;
+}
+
+button {
+    background-color: #a37b73;
+    color: #eee0d3;
+}
+
+#calculator button, div#screen {
+    border-radius: 10px;
+}
+
+div#screen {
+    grid-area: scr;
+    justify-content: flex-end;
+    padding: 3vw;
+    font-size: 7vh;
+    background-color: #3F292B;
+    color: #DBBEA1;
+}
+
+div#preview {
+    position: absolute;
+    border: none;
+    font-size: 3vh;
+    right: 3vh;
+    top: 1vh;
+    color: #eee0d3;;
+}
+
+#equals {
+    grid-area: eq;
+    background-color: #DB7F67;
+}
+
+#clear { grid-area: ac; }
+
+#add { grid-area: add; }
+
+#subtract { grid-area: sub;}
+
+#zero { grid-area: z; }

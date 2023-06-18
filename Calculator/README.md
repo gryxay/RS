@@ -1,0 +1,1 @@
+Task on creating a calculator, done using JS, HTML, CSS

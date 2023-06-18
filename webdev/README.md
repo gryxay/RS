@@ -1,1 +1,1 @@
-Task on creating a basic website using HTML and CSS from mockup
+All projects done during rolling scopes school course
